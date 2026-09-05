@@ -1,7 +1,6 @@
 name: "<p>Hello World 2</p>!"
 
 on:
-  push:
   workflow_dispatch:
 
 jobs:
